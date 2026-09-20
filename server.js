@@ -10,8 +10,8 @@ const upload = multer({ dest: os.tmpdir() });
 
 const FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf';
 
-const W = 900;
-const H = 1600;
+const W = 1600;
+const H = 900;
 const FPS = 30;
 
 const GREEN = '0x1E7A1E';
