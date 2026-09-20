@@ -22,11 +22,13 @@ const IMG = 300;
 const DIGIT_FONT = 110;
 const ANSWER_FONT = 90;
 
-const COL1_CX = 300;
-const COL2_CX = 600;
-const ROW1_CY = 451;
-const ROW2_CY = 751;
-const ANSWER_CY = 1000;
+// --- ЦЕНТРИРОВАНИЕ ПОД ХОЛСТ 1600x900 (изменены только эти 5 значений) ---
+const COL1_CX = 650;   // было 300
+const COL2_CX = 950;   // было 600  -> колонки симметричны вокруг W/2=800, шаг 300 сохранён
+const ROW1_CY = 300;   // было 451
+const ROW2_CY = 600;   // было 751  -> строки симметричны вокруг H/2=450, шаг 300 сохранён
+const ANSWER_CY = 810; // было 1000 -> ответ под квадратами, в кадре
+// -----------------------------------------------------------------------
 
 const OVERLAY_NAMES = ['topleft', 'item', 'transport', 'nizpravo'];
 
